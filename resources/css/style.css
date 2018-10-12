@@ -1,3 +1,22 @@
 * {
   font-family: Verdana;
 }
+
+.main-nav {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid red;
+}
+
+/*The navigation is a list of inline-block spans -- I don't have the navlinks right, yet*/
+
+.navlinks {
+  display: inline-block;
+}
+
+h1, #nav {
+  color: mediumaquamarine;
+  top: auto;
+}
