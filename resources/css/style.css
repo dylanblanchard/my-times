@@ -2,21 +2,42 @@
   font-family: Verdana;
 }
 
-.main-nav {
+body {
+  display: block;
+  margin: 0;
+}
+
+header {
   display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   border: 1px solid red;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: auto;
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  flex-grow: 2;
 }
 
 /*The navigation is a list of inline-block spans -- I don't have the navlinks right, yet*/
 
-.navlinks {
-  display: inline-block;
+#headernav {
+  width: 100%;
+  padding-right: 40px;
+  text-align: right;
+
 }
 
-h1, #nav {
+span {
   color: mediumaquamarine;
-  top: auto;
+  padding: 20px 10px;
+  display: inline-block;
 }
