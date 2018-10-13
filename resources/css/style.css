@@ -80,6 +80,9 @@ a {
   width: 240px;
 }
 
-.mini {
-  font-size: 12px;
+.mother {
+  background-image: url("https://github.com/dylanblanchard/my-times/blob/master/resources/images/img-story-main.png?raw=true");
+  font-size: 40px;
+  color: white;
+  height: 300px;
 }
