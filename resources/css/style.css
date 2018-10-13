@@ -17,27 +17,52 @@ header {
   position: fixed;
   width: 100%;
   height: auto;
+  justify-content: space-between;
+}
 
+.title {
+    color: mediumaquamarine;
+  padding: 20px 10px;
+}
+
+ul {
+  padding: 0;
+  display: flex;
+
+}
+
+li {
+  list-style: none;
+  padding: 20px;
 }
 
 .logo {
   display: flex;
   align-items: center;
   padding-left: 30px;
-  flex-grow: 2;
+  
 }
-
-/*The navigation is a list of inline-block spans -- I don't have the navlinks right, yet*/
 
 #headernav {
-  width: 100%;
   padding-right: 40px;
-  text-align: right;
-
 }
 
-span {
-  color: mediumaquamarine;
-  padding: 20px 10px;
-  display: inline-block;
+.content {
+  display: flex;
+}
+
+a {
+  color: black;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
