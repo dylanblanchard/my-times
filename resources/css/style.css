@@ -53,6 +53,8 @@ li {
 
 .content {
   display: flex;
+  padding-top: 116px;
+  margin: 0 auto 78px auto;
 }
 
 a {
@@ -61,6 +63,9 @@ a {
 
 .column {
   border: 1px solid blue;
+  flex-direction: column;
+  margin-right: auto;
+  /* maybe 25px for margin */
 }
 
 .column.large {
