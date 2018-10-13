@@ -82,15 +82,45 @@ a {
 
 .mother {
   background-image: url("https://github.com/dylanblanchard/my-times/blob/master/resources/images/img-story-main.png?raw=true");
+  font-family: Georgia;
+  font-weight: bold;
   font-size: 40px;
   color: white;
   height: 300px;
 }
 
 .earth {
-   background-image: url("https://github.com/dylanblanchard/my-times/blob/master/resources/images/img-story-2.png?raw=true");
+  background-image: url("https://github.com/dylanblanchard/my-times/blob/master/resources/images/img-story-2.png?raw=true");
+  font-family: Georgia;
+  font-weight: bold;
   font-size: 30px;
   color: white;
   height: 300px;
   text-align: center;
 }
+
+.research {
+  background-image: url("https://github.com/dylanblanchard/my-times/blob/master/resources/images/img-story-3.png?raw=true");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  text-align: center;
+}
+
+.cats {
+  background-image: url("https://github.com/dylanblanchard/my-times/blob/master/resources/images/img-story-1.png?raw=true");
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  text-align: center;
+}
+
+.story {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+src {}
