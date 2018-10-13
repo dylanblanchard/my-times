@@ -86,3 +86,11 @@ a {
   color: white;
   height: 300px;
 }
+
+.earth {
+   background-image: url("https://github.com/dylanblanchard/my-times/blob/master/resources/images/img-story-2.png?raw=true");
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  text-align: center;
+}
