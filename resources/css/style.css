@@ -5,6 +5,7 @@
 p {
   border: 1px solid purple;
 }
+
 body {
   display: block;
   margin: 0;
@@ -24,7 +25,7 @@ header {
 }
 
 .title {
-    color: mediumaquamarine;
+  color: mediumaquamarine;
   padding: 20px 10px;
 }
 
@@ -43,7 +44,7 @@ li {
   display: flex;
   align-items: center;
   padding-left: 30px;
-  
+
 }
 
 #headernav {
@@ -73,4 +74,3 @@ a {
 .column.small {
   width: 240px;
 }
-
