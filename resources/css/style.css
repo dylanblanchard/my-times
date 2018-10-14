@@ -70,7 +70,8 @@ a {
 }
 
 .column.large {
-  width: 630px; 
+  width: 630px;
+  justify-content: space-between;
 }
 
 .column.medium {
@@ -79,6 +80,10 @@ a {
 
 .column.small {
   width: 240px;
+}
+
+.coldouble {
+  display: flex;
 }
 
 .mother {
