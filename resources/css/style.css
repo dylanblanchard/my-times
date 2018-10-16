@@ -2,9 +2,7 @@
   font-family: Verdana;
 }
 
-div {
-  border: 1px solid green;
-}
+
 
 body {
   display: block;
@@ -16,7 +14,7 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  border: 1px solid red;
+  border: 1px solid black;
   align-items: center;
   position: fixed;
   width: 100%;
@@ -63,7 +61,6 @@ a {
 }
 
 .column {
-  border: 1px solid blue;
   flex-direction: column;
   margin-right: auto;
   /* maybe 25px for margin */
