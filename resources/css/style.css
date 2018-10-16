@@ -82,6 +82,11 @@ a {
 
 .coldouble {
   display: flex;
+  justify-content: space-between;
+}
+
+.rightcol {
+  padding-left: 15px;
 }
 
 .mother {
