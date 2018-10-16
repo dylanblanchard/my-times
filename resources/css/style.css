@@ -90,7 +90,7 @@ a {
 }
 
 .mother {
-  background-image: url("https://github.com/dylanblanchard/my-times/blob/master/resources/images/img-story-main.png?raw=true");
+  background-image: url("../images/img-story-main.png");
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
